@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Barlow";  
+    src: url("font/BarlowCondensed-ExtraLight.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }
+
+
+
+
+.body {
+    margin: 0 auto;
+    grid-template-columns: 1fr 45em;
+    grid-template-rows: auto;
+    display: grid;
+
+    
+    font-family: 'Barlow';
+}
+
+.email:focus {
+    border-left: 2px solid #1E90FF;
+}
+.phone:focus {
+    border-left: 2px solid #1E90FF;
+}
+a:focus {
+    border: 1px solid #1E90FF;
+}
+#check:focus {
+    border: 1px solid #c7c8ca;
+}
+
+
+
+.header-logo {
+    position: absolute;
+   
+}
+.logo {
+    width: 118px;
+    margin: 35px;
+    background: url(img/logo.svg) no-repeat;
+    height: 30px;
+    background-size: 112px;
+    
+    
+}
+.background-img {
+    width: 100%;
+    background: url(img/bg.jpg) no-repeat;
+    height: 670px;
+}
+.main {
+    padding: 5%;
+}
+.register {
+    
+    margin-bottom: 35px;
+}
+.register-header {
+    margin-bottom: 10px;
+}
+.register-p {
+    margin-top: 0;
+}
+.register-buttonone {
+    background: url(img/facebook.svg) 7px #191970 no-repeat;
+    padding: 14px 52px;
+    margin-top: 20px;
+    background-size: 15px;
+    border: none;
+
+}
+.buttonone-a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+.register-bottontoo {
+    background: url(img/linkedin.svg) 7px #1E90FF no-repeat;
+
+    padding: 14px 52px;
+    margin-left: 22px;
+    background-size: 15px;
+    border: none;
+}
+
+
+.text-line {
+	font-size: 20px;
+	color: rgb(50, 50, 50);
+	line-height: 1;
+	text-align: center;
+	position: relative;
+    margin: 30px 0px 0px 78px;
+    width: 277px;
+
+}
+.text-line span {
+	background: #fff;
+	display: inline-block;
+	padding: 0 18px;
+	position: relative;
+}
+.text-line:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;        
+	width: 100%;
+	height: 2px; /* ширина линии */
+	background: #f3f4f2; /* цвет линии */
+}
+.email {
+    padding: 2px 35px 24px 5px;
+    margin-right: 25px;
+
+    border: 1px solid #8c8c8c;
+   
+   /* border-left: 2px solid #1E90FF;*/
+    outline: none;
+    
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+
+} 
+
+.phone {
+    padding: 2px 35px 24px 5px;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    outline: none;
+  
+}
+.form-h1 {
+    margin: 45px 0 0 0;
+}
+.form-p {
+    margin-top: 12px;
+    margin-bottom: 33px;
+}
+
+.form-radio-buttom.radio {
+    padding-left: 26px;
+}
+
+
+
+.checkbox {
+    margin-top: 54px;
+}
+#check {
+    margin-top: 50px;
+    all: unset;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #c7c8ca;
+    margin-right: 10px;
+}
+#check:checked {
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path d="M243.315 454.639 32 306.676l58.918-84.145 127.171 89.045 177.921-254.1 84.146 58.919z"/></svg>');
+    background-position: center;
+    background-size: 9px 9px;
+    background-repeat: no-repeat;
+  }
+
+.check {
+    color: gray;
+    padding-top: 1px;
+}
+
+
+.submit {
+    border: none;
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 60px;
+    margin: 39px 0 0 0;
+    border-radius: 4px; 
+}
+
+.radio:checked {
+    all: unset;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border: 3px solid #1E90FF;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-right: 12px;
+    
+  }
+.radio:focus {
+    
+    border: 3px solid #252a2b;
+}
+
+
+/* .radio:checked {
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 495" style="enable-background:new 0 0 495 495" xml:space="preserve"><path style="fill:%23ff7956" d="M0 247.5C0 384.19 110.81 495 247.5 495V0C110.81 0 0 110.81 0 247.5z"/><path style="fill:%23ff5023" d="M247.5 0v495C384.19 495 495 384.19 495 247.5S384.19 0 247.5 0z"/></svg>');
+    background-position: center;
+    background-size: 7px;
+    background-repeat: no-repeat;
+  } */
+  .form-radio-buttom {
+    margin-left: 15px;
+  }
+  .radio {
+      margin-right: 12px;
+  }
